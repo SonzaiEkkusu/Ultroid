@@ -51,7 +51,11 @@ upage = 0
 SUP_BUTTONS = [
     [
         Button.url("• CHANNEL •", url="https://t.me/November2kBio"),
+    ],
+    [
         Button.url("• TESTIMONI •", url="https://t.me/November2kLab"),
+    ],
+    [
         Button.url("• QRIS •", url="https://t.me/November2kLab/4"),
     ],
 ]
@@ -62,7 +66,7 @@ SUP_BUTTONS = [
 @in_pattern(owner=True, func=lambda x: not x.text)
 async def inline_alive(o):
     TLINK = inline_pic() or "https://files.catbox.moe/e89pv0.jpg"
-    MSG = "• **Ultroid Userbot •**"
+    MSG = "• **Sonzai X シ Information** •"
     WEB0 = InputWebDocument(
         "https://files.catbox.moe/e89pv0.jpg", 0, "image/jpg", []
     )
