@@ -52,6 +52,7 @@ SUP_BUTTONS = [
     [
         Button.url("• CHANNEL •", url="https://t.me/November2kBio"),
         Button.url("• TESTIMONI •", url="https://t.me/November2kLab"),
+        Button.url("• QRIS •", url="https://t.me/November2kLab/4"),
     ],
 ]
 

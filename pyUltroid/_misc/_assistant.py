@@ -21,20 +21,19 @@ from . import append_or_update, owner_and_sudos
 OWNER = ultroid_bot.full_name
 
 MSG = f"""
-**Ultroid - UserBot**
 ➖➖➖➖➖➖➖➖➖➖
-**Owner**: [{OWNER}](tg://user?id={ultroid_bot.uid})
-**Support**: @TeamUltroid
+**Sonzai X シ Information**
 ➖➖➖➖➖➖➖➖➖➖
 """
 
 IN_BTTS = [
     [
         Button.url(
-            "Repository",
-            url="https://github.com/TeamUltroid/Ultroid",
+            "• CHANNEL •",
+            url="https://t.me/November2kBio",
         ),
-        Button.url("Support", url="https://t.me/UltroidSupportChat"),
+        Button.url("• TESTIMONI •", url="https://t.me/November2kLab"),
+        Button.url("• QRIS •", url="https://t.me/November2kLab/4"),
     ]
 ]
 
@@ -98,12 +97,12 @@ def in_pattern(pattern=None, owner=False, **kwargs):
             if owner and event.sender_id not in owner_and_sudos():
                 res = [
                     await event.builder.article(
-                        title="Ultroid Userbot",
-                        url="https://t.me/TeamUltroid",
+                        title="Sonzai X シ Information",
+                        url="https://t.me/November2k",
                         description="(c) TeamUltroid",
                         text=MSG,
                         thumb=InputWebDocument(
-                            "https://graph.org/file/dde85d441fa051a0d7d1d.jpg",
+                            "https://files.catbox.moe/at4ybm.jpg",
                             0,
                             "image/jpeg",
                             [],
